@@ -1,6 +1,7 @@
 # nasapp
 ## Beschrijving
 nas met access point
+hostname: *******
 ## Bronnen
 Noteer hier uw inspiratie, hardware en software bronnen.
 Interessante Access Point projecten:
