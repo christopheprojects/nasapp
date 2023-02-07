@@ -31,3 +31,6 @@ Visit RaspAP web GUI and start configuring things
 Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 Sla je als apparte bestanden op in deze respository.
+http://snt-guest/
+login:admin
+paswordt:snt-guest (geplaatst op vraag van leerkracht)
