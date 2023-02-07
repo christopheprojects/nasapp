@@ -30,6 +30,7 @@ Install: curl -sL https://install.raspap.com | bash
 Visit RaspAP web GUI and start configuring things
 Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
+SSH geactiveerd in sudo raspi-config
 Sla je als apparte bestanden op in deze respository.
 http://snt-guest/
 login:admin
