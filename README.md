@@ -31,7 +31,7 @@ Visit RaspAP web GUI and start configuring things
 in raspAP bridge instellen
 Toggling bridged AP mode
 In the RaspAP web interface, go to Hotspot > Advanced tab, then slide the Bridged AP mode toggle. Save settings then Restart hotspot.
-https://i.imgur.com/xSHY164.png
+![Dit is de afbeelding van hotspot](https://i.imgur.com/xSHY164.png)
 
 Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
