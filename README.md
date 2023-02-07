@@ -32,7 +32,7 @@ in raspAP bridge instellen
 Toggling bridged AP mode
 In the RaspAP web interface, go to Hotspot > Advanced tab, then slide the Bridged AP mode toggle. Save settings then Restart hotspot.
 ![Dit is de afbeelding van hotspot](https://i.imgur.com/xSHY164.png)
-
+klik op [save settings] en dan op [restart hotspot]
 Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 SSH geactiveerd in sudo raspi-config
