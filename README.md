@@ -58,6 +58,14 @@ Om dit script als programma te kunnen starten, moeten we het uitvoerrechten geve
 sudo chmod +x /usr/bin/wsdd
 d. We testen het script door het uit te voeren:
 /usr/bin/wsdd
+e. Stop het wsdd script met de toetscombinatie Ctrl+C.
+f. Tijd om het wsdd script automatisch te starten bij het opstarten van de Raspberry Pi:
+f1. Download het systemd startscript:
+wget https://raw.githubusercontent.com/christgau/wsdd/master/etc/systemd/wsdd.service
+f2. Verplaats het opstartscript naar de map met opstartscripts:
+sudo mv wsdd.service /etc/systemd/system/
+f3. Test het opstartscript door het te starten:
+sudo systemctl start wsdd.service
 
 
 CONFIGUREREN NAS
