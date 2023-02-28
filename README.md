@@ -26,8 +26,8 @@ Setup: sudo apt-get update && sudo apt-get full-upgrade -y
 REBOOT
 Config: sudo raspi-config
 REBOOT -- raspi-config will probably demand a reboot
-Install: curl -sL https://install.raspap.com | bash
-Visit RaspAP web GUI and start configuring things
+Install: "curl -sL https://install.raspap.com | bash"
+Visit RaspAP web GUI and start configuring things by typing the ip adress in the browser bar
 in raspAP bridge instellen
 Toggling bridged AP mode
 In the RaspAP web interface, go to Hotspot > Advanced tab, then slide the Bridged AP mode toggle. Save settings then Restart hotspot.
