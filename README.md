@@ -77,3 +77,14 @@ f8. Nu de test geslaagd is, nemen we het startscript op in het opstartsysteem va
 sudo systemctl enable wsdd.service 
 
 CONFIGUREREN NAS
+a. Nu de USB-stick beschikbaar is, moeten we Samba instellen om er gebruik van te maken:
+Open als systeembeheerder het Samba configuratiebestand met een teksteditor.
+pi@RPIDanPin:~ $ sudo nano -B /etc/samba/smb.conf
+b. Voeg op het einde van het configuratiebestand de volgende sectie toe:
+[NAS]
+   comment = Network-Attached Storage
+   path = /media/pi
+   read only = yes
+   public = yes
+   force user = pi
+
