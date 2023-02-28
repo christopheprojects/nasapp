@@ -40,4 +40,7 @@ Sla je als apparte bestanden op in deze respository.
 http://snt-guest/
 login:admin
 paswordt:snt-guest (geplaatst op vraag van leerkracht)
+
 beginnen aan NAS + leren backup maken 28/2/2023
+BACKUP maken met WINDISK23 in windows
+INSTALLEREN NAS
