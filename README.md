@@ -72,6 +72,8 @@ f5. Test het opstartscript opnieuw:
 sudo systemctl start wsdd.service
 f6. Controleer de meldingen van het opstartscript:
 sudo systemctl status wsdd.service
-
+f7. De Raspberry Pi NAS verschijnt terug in de Windows Verkenner Netwerkomgeving.
+f8. Nu de test geslaagd is, nemen we het startscript op in het opstartsysteem van Raspian:
+sudo systemctl enable wsdd.service 
 
 CONFIGUREREN NAS
