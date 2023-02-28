@@ -47,4 +47,17 @@ INSTALLEREN NAS
 sudo apt update
 sudo apt upgrade
 sudo apt install samba samba-common-bin
+SOFTWARE CONNECTIE Installeren
+Windows 10 herkent op het netwerk aangesloten apparaten door gebruik te maken van Web Service Discovery. Dit is de vervanger van het verouderde NetBios systeem, dat stilaan uit Windows 10 wordt verwijderd. Samba werkt nog niet met Web Service Discovery, waardoor onze NAS niet altijd in Windows Verkenner wordt weergegeven. Tot het nieuwe Windows Web Service Discovery in Samba is geïntegreerd, kan je de volgende software op uw Raspberry Pi installeren en gebruiken:
+a. Download het script (software) met de opdracht:
+wget https://raw.githubusercontent.com/christgau/wsdd/master/src/wsdd.py
+b. Verplaats het script naar de softwaremap van de Raspberry Pi:
+sudo mv wsdd.py /usr/bin/wsdd
+c. Dit script is voor Raspian nog steeds een eenvoudig tekstbestand. 
+Om dit script als programma te kunnen starten, moeten we het uitvoerrechten geven (eXecutable maken):
+sudo chmod +x /usr/bin/wsdd
+d. We testen het script door het uit te voeren:
+/usr/bin/wsdd
+
+
 CONFIGUREREN NAS
