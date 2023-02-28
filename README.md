@@ -66,6 +66,12 @@ f2. Verplaats het opstartscript naar de map met opstartscripts:
 sudo mv wsdd.service /etc/systemd/system/
 f3. Test het opstartscript door het te starten:
 sudo systemctl start wsdd.service
+f4. Dit gaat duidelijk fout. Na een grondig onderzoek van het starscript /etc/systemd/system/wsdd.service bleek al vlug dat het standaard configuratiebestand /etc/default/wsdd ontbreekt. Je kunt dit aanmaken met de opdracht:
+sudo touch /etc/default/wsdd
+f5. Test het opstartscript opnieuw:
+sudo systemctl start wsdd.service
+f6. Controleer de meldingen van het opstartscript:
+sudo systemctl status wsdd.service
 
 
 CONFIGUREREN NAS
