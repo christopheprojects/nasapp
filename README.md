@@ -114,6 +114,8 @@ media_dir=/media/pi
 
 En start je de miniDLNA dienst terug op:
 sudo systemctl start minidlna.service
+Indien de miniDLNA dienst reeds opgestart is kan je altijd restart gebruiken bij wijzigingen zonder te moeten rebooten
+sudo systemctl restart minidlna.service
 
 
 Foolproof maken
