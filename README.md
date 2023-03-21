@@ -95,10 +95,10 @@ We gebruiken het commando sudo raspi-config
 en kiezen volgende opties uit het menu
 ![Dit is de afbeelding van scherm1](https://cdn-learn.adafruit.com/assets/assets/000/108/774/original/learn_raspberry_pi_cmdline-1.png)
 kies dan P3
-https://learn.adafruit.com/assets/108775
+![Dit is de afbeelding van scherm2](https://cdn-learn.adafruit.com/assets/assets/000/108/774/original/learn_raspberry_pi_cmdline-2.png)
 De overlay system is dus een soort RAM-Drive die alles tijdelijk opslaat zonder aan het besturingsysteem te raken.
 Klik op YES
-https://learn.adafruit.com/assets/108776
+![Dit is de afbeelding van scherm3](https://cdn-learn.adafruit.com/assets/assets/000/108/774/original/learn_raspberry_pi_cmdline-3.png)
 De bootpartitie Wordt hiermee beveiligd en kan dus niet meer gewijzigd worden
 Klik op YES
-https://learn.adafruit.com/assets/108777
+![Dit is de afbeelding van scherm4](https://cdn-learn.adafruit.com/assets/assets/000/108/774/original/learn_raspberry_pi_cmdline-4.png)
