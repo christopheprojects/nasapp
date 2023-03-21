@@ -88,6 +88,34 @@ b. Voeg op het einde van het configuratiebestand de volgende sectie toe:
    public = yes
    force user = pi
 
+Install DNLA mediaserver
+sudo apt update && sudo apt upgrade -y
+sudo apt install minidlna
+Na de installatie staan twee configuratiebestanden klaar om ReadyMedia in te stellen: /etc/default/minidlna en /etc/minidlna.conf. In het eerste bestand hoef je normaal gesproken niets te wijzigen. Het bevat onder andere de gebruikersnaam waaronder ReadyMedia draait (minidlna) en de locatie van het eigenlijk configuratiebestand (/etc/minidlna.conf). Dit bestand zullen we nu stap voor stap aan onze wensen aanpassen. Stop om te beginnen de minidlna-service:
+
+sudo systemctl stop minidlna.service
+En open vervolgens /etc/minidlna.conf in een teksteditor:
+
+$ sudo nano -B /etc/minidlna.conf
+De belangrijkste optie is media_dir. Die bepaalt welke mappen ReadyMedia moet scannen op zoek naar mediabestanden. Standaard staat dit ingesteld op /var/lib/minidlna. Wijzig dit dus naar de locatie van je mediabestanden. Meerdere media_dir-opties opnemen mag ook: bij elke map (directory) kan je zelfs aangeven of die muziek (A), video (V) of afbeeldingen (P) bevat. ReadyMedia zoekt dan enkel naar die specifieke bestandstypes.
+
+# Path to the directory you want scanned for media files.
+#
+# This option can be specified more than once if you want multiple directories
+# scanned.
+#
+# If you want to restrict a media_dir to a specific content type, you can
+# prepend the directory name with a letter representing the type (A, P or V),
+# followed by a comma, as so:
+#   * "A" for audio    (eg. media_dir=A,/var/lib/minidlna/music)
+#   * "P" for pictures (eg. media_dir=P,/var/lib/minidlna/pictures)
+#   * "V" for video    (eg. media_dir=V,/var/lib/minidlna/videos)
+media_dir=/media/pi
+
+En start je de miniDLNA dienst terug op:
+sudo systemctl start minidlna.service
+
+
 Foolproof maken
 Dit vindt je terug op
 https://learn.adafruit.com/read-only-raspberry-pi/overview
