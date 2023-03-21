@@ -89,9 +89,11 @@ b. Voeg op het einde van het configuratiebestand de volgende sectie toe:
    force user = pi
 
 Foolproof maken
+Dit vindt je terug op
+https://learn.adafruit.com/read-only-raspberry-pi/overview
 We gebruiken het commando sudo raspi-config
 en kiezen volgende opties uit het menu
-https://learn.adafruit.com/assets/108774
+![Dit is de afbeelding van scherm1](https://cdn-learn.adafruit.com/assets/assets/000/108/774/original/learn_raspberry_pi_cmdline-1.png)
 kies dan P3
 https://learn.adafruit.com/assets/108775
 De overlay system is dus een soort RAM-Drive die alles tijdelijk opslaat zonder aan het besturingsysteem te raken.
