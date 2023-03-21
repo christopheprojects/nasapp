@@ -88,3 +88,15 @@ b. Voeg op het einde van het configuratiebestand de volgende sectie toe:
    public = yes
    force user = pi
 
+Foolproof maken
+We gebruiken het commando sudo raspi-config
+en kiezen volgende opties uit het menu
+https://learn.adafruit.com/assets/108774
+kies dan P3
+https://learn.adafruit.com/assets/108775
+De overlay system is dus een soort RAM-Drive die alles tijdelijk opslaat zonder aan het besturingsysteem te raken.
+Klik op YES
+https://learn.adafruit.com/assets/108776
+De bootpartitie Wordt hiermee beveiligd en kan dus niet meer gewijzigd worden
+Klik op YES
+https://learn.adafruit.com/assets/108777
