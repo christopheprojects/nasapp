@@ -88,7 +88,7 @@ b. Voeg op het einde van het configuratiebestand de volgende sectie toe:
    public = yes
    force user = pi
 
-Install DNLA mediaserver
+INSTALL DNLA mediaserver
 sudo apt update && sudo apt upgrade -y
 sudo apt install minidlna
 Na de installatie staan twee configuratiebestanden klaar om ReadyMedia in te stellen: /etc/default/minidlna en /etc/minidlna.conf. In het eerste bestand hoef je normaal gesproken niets te wijzigen. Het bevat onder andere de gebruikersnaam waaronder ReadyMedia draait (minidlna) en de locatie van het eigenlijk configuratiebestand (/etc/minidlna.conf). Dit bestand zullen we nu stap voor stap aan onze wensen aanpassen. Stop om te beginnen de minidlna-service:
