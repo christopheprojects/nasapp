@@ -102,4 +102,6 @@ Klik op YES
 De bootpartitie Wordt hiermee beveiligd en kan dus niet meer gewijzigd worden
 Klik op YES
 ![Dit is de afbeelding van scherm4](https://cdn-learn.adafruit.com/assets/assets/000/108/777/original/learn_raspberry_pi_cmdline-4.png)
-
+/
+/
+Als u tijdelijk lees-/schrijftoegang moet inschakelen, zoals bij het bewerken van lastige configuratie-instellingen in /boot/config.txt, of grote systeemupdates die van invloed zijn op de kernel- of apparaatstructuurbestanden, kan dit worden gedaan vanaf de opdrachtregel (als u "full" Raspbian met een GUI gebruikt, open dan een terminalvenster): sudo mount -o remount,rw /boot
