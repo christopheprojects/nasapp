@@ -43,6 +43,8 @@ paswordt:snt-guest (geplaatst op vraag van leerkracht)
 
 beginnen aan NAS + leren backup maken 28/2/2023
 BACKUP maken met WINDISK23 in windows
+naam.IMG
+
 INSTALLEREN NAS
 sudo apt update
 sudo apt upgrade
