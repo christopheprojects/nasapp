@@ -110,7 +110,7 @@ De belangrijkste optie is media_dir. Die bepaalt welke mappen ReadyMedia moet sc
 #   * "A" for audio    (eg. media_dir=A,/var/lib/minidlna/music)
 #   * "P" for pictures (eg. media_dir=P,/var/lib/minidlna/pictures)
 #   * "V" for video    (eg. media_dir=V,/var/lib/minidlna/videos)
-media_dir=/media/pi
+media_dir=APV,/media/pi
 
 En start je de miniDLNA dienst terug op:
 sudo systemctl start minidlna.service
