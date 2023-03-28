@@ -117,8 +117,19 @@ sudo systemctl start minidlna.service
 Indien de miniDLNA dienst reeds opgestart is kan je altijd restart gebruiken bij wijzigingen zonder te moeten rebooten
 sudo systemctl restart minidlna.service
 
+Grafische afzetten
+sudo raspi-config
+1 System Options
+S5 BOOT / AUTO LOGIN
+B2 Console autologin
+
+Automount usb
+https://pimylifeup.com/raspberry-pi-mount-usb-drive/
+https://forums.raspberrypi.com/viewtopic.php?t=276494
+
 
 Foolproof maken
+sudo raspi-config
 Dit vindt je terug op
 https://learn.adafruit.com/read-only-raspberry-pi/overview
 We gebruiken het commando sudo raspi-config
